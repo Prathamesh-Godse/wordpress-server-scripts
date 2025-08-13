@@ -8,8 +8,9 @@ generate_random_string() {
 generate_random_name() {
 	tr -dc 'a-z' </dev/urandom | head -c 12
 }
+
 generate_random_salt() {
-	tr -dc 'a-zA-Z0-9!@#$%^&*()-_=+[]{}|;:,.<>?/' </dev/urandom | head -c 64
+    tr -dc 'a-zA-Z0-9!@#$%^&*()-_=+[]{}|;:,.<>?/' </dev/urandom | head -c 64
 }
 
 # Ask SSH info
@@ -42,8 +43,15 @@ db_password=$(generate_random_string)
 new_server_user=$(generate_random_name)
 new_server_password=$(generate_random_string)
 
-# Fetch WordPress salts
-salts=$(curl -s https://api.wordpress.org/secret-key/1.1/salt/)
+# Generate salts
+auth_key=$(generate_random_salt)
+secure_auth_key=$(generate_random_salt)
+logged_in_key=$(generate_random_salt)
+nonce_key=$(generate_random_salt)
+auth_salt=$(generate_random_salt)
+secure_auth_salt=$(generate_random_salt)
+logged_in_salt=$(generate_random_salt)
+nonce_salt=$(generate_random_salt)
 
 output_file="config.txt"
 
@@ -59,7 +67,14 @@ WP_PASSWORD=$wp_password
 DB_NAME=$db_name
 DB_USER=$db_user
 DB_PASSWORD=$db_password
-SALTS=$salts
+AUTH_KEY=$auth_key
+SECURE_AUTH_KEY=$secure_auth_key
+LOGGED_IN_KEY=$logged_in_key
+NONCE_KEY=$nonce_key
+AUTH_SALT=$auth_salt
+SECURE_AUTH_SALT=$secure_auth_salt
+LOGGED_IN_SALT=$logged_in_salt
+NONCE_SALT=$nonce_salt
 NEW_SERVER_USER=$new_server_user
 NEW_SERVER_PASSWORD=$new_server_password
 EOF
