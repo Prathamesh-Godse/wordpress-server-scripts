@@ -81,6 +81,8 @@ EOF
 
 echo "Configuration saved to $output_file."
 
+cat "config.txt"
+
 while true; do
   read -p "Please note down these details as backup. Type 'y' to proceed: " confirm
   case "$confirm" in
