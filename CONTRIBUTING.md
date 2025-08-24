@@ -187,6 +187,7 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/) style
 
 - **Format:** `<type>(<scope>): <subject>`
 - **Types:** `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
+  
 | Type     | Purpose                                                                                           | Example Commit Message                                 |
 | :------- | :------------------------------------------------------------------------------------------------ | :----------------------------------------------------- |
 | **`feat`**   | **A new feature** for the user, not a new feature for the build script. It's something that adds value. | `feat: add user profile page`                          |
