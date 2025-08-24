@@ -187,6 +187,16 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/) style
 
 - **Format:** `<type>(<scope>): <subject>`
 - **Types:** `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
+| Type     | Purpose                                                                                           | Example Commit Message                                 |
+| :------- | :------------------------------------------------------------------------------------------------ | :----------------------------------------------------- |
+| **`feat`**   | **A new feature** for the user, not a new feature for the build script. It's something that adds value. | `feat: add user profile page`                          |
+| **`fix`**    | **A bug fix** for the user. This patches a problem in the existing codebase.                      | `fix: prevent crashing on invalid login attempt`       |
+| **`docs`**   | **Documentation only changes.** Anything that affects the README, contributing guide, or code comments. | `docs: update API usage examples in README`            |
+| **`style`**  | **Changes that do not affect the meaning of the code.** This is about formatting, white space, semi-colons, etc. | `style: format code with prettier`                     |
+| **`refactor`** | **A code change that neither fixes a bug nor adds a feature.** It's restructuring code to make it better without changing its behavior. | `refactor: simplify user authentication logic`         |
+| **`test`**   | **Adding missing tests or correcting existing tests.** This is about the test suite, not production code. | `test: add unit tests for calculateTotal function`     |
+| **`chore`**  | **Updating build tasks, package manager configs, etc.; no production code change.** Maintenance tasks. | `chore: update GitHub Actions workflow` `chore: add new dependency` |
+
 - **Example:**
   - `feat(auth): add login with Google OAuth`
   - `fix(api): correct user data validation error`
