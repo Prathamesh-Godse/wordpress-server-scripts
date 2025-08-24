@@ -1,6 +1,6 @@
 # Contributing to Project Name
 
-First off, thank you for taking the time to contribute! 🎉 All forms of contributions are valued, from bug reports and feature suggestions to code changes.
+First off, thank you for taking the time to contribute! All forms of contributions are valued, from bug reports and feature suggestions to code changes.
 
 This guide will walk you through the process of contributing to this project.
 
@@ -158,6 +158,6 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/) style
 
 ---
 
-Thank you again for your contribution! Your effort makes the open-source community an amazing place. ✨
+Thank you again for your contribution! Your effort makes the open-source community an amazing place.
 
 ---
