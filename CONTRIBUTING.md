@@ -17,13 +17,7 @@ This guide will walk you through the process of contributing to this project.
   - [Step 2: Work on Your Fork](#step-2-work-on-your-fork)
     - [Option A: Web-Based Editing](#option-a-web-based-editing-perfect-for-quick-docs-fixes)
     - [Option B: Local Development](#option-b-local-development-recommended-for-code-changes)
-      - [Step 2B: Clone Your Fork](#step-2b-clone-your-fork)
-      - [Step 3B: Set Upstream Remote (Sync Latest Changes)](#step-3b-set-upstream-remote-sync-latest-changes)
-      - [Step 4B: Create a Feature Branch](#step-4b-create-a-feature-branch)
-      - [Step 5B: Make Your Changes](#step-5b-make-your-changes)
-      - [Step 6B: Commit Your Changes](#step-6b-commit-your-changes)
-      - [Step 7B: Push to Your Fork](#step-7b-push-to-your-fork)
-  - [Step 8: Open a Pull Request](#step-8-open-a-pull-request)
+  - [Open a Pull Request](#step-8-open-a-pull-request)
 - [Style Guides](#style-guides)
   - [Commit Messages](#commit-messages)
 
@@ -166,7 +160,7 @@ git push origin feat/my-new-feature
 1.  Click the **Push origin** button in the top toolbar.
     
 
-### Step 8: Open a Pull Request (PR)
+### Open a Pull Request (PR)
 
 This step is the same regardless of how you made your changes.
 
