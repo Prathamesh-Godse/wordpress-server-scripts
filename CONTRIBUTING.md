@@ -17,7 +17,7 @@ This guide will walk you through the process of contributing to this project.
   - [Step 2: Work on Your Fork](#step-2-work-on-your-fork)
     - [Option A: Web-Based Editing](#option-a-web-based-editing-perfect-for-quick-docs-fixes)
     - [Option B: Local Development](#option-b-local-development-recommended-for-code-changes)
-  - [Open a Pull Request](#open-a-pull-request)
+  - [Open a Pull Request (PR)](#open-a-pull-request)
 - [Style Guides](#style-guides)
   - [Commit Messages](#commit-messages)
 
@@ -160,7 +160,7 @@ git push origin feat/my-new-feature
 1.  Click the **Push origin** button in the top toolbar.
     
 
-### Open a Pull Request
+### Open a Pull Request (PR)
 
 This step is the same regardless of how you made your changes.
 
