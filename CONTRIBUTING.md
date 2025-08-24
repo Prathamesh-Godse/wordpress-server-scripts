@@ -72,7 +72,7 @@ This project uses a **Forking Workflow** with **Protected Branches**. This means
 Clone your forked repository to your local machine. **Make sure to clone YOUR fork, not the original project.**
 
 ```bash
-git clone https://github.com/YourUsername/YourProjectName.git
+git clone https://github.com/YourUsername/wordpress-server-scripts.git
 cd YourProjectName
 ```
 
@@ -81,7 +81,7 @@ cd YourProjectName
 Add the original project as a remote called `upstream`. This allows you to sync changes from the main project later.
 
 ```bash
-git remote add upstream https://github.com/YourUsername/YourProjectName.git
+git remote add upstream https://github.com/Prathamesh-Godse/wordpress-server-scripts.git
 ```
 
 To sync your local `main` branch with the latest changes from the main project:
