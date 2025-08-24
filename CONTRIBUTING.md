@@ -30,7 +30,7 @@ By participating in this project, you are expected to uphold a standard of respe
 
 ## I Have a Question
 
-Before asking a question, please check the project's [README.md](./README.md) and the existing [GitHub Issues](https://github.com/YourUsername/YourProjectName/issues) to see if your question has already been answered.
+Before asking a question, please check the project's [README.md](./README.md) and the existing [GitHub Issues](https://github.com/Prathamesh-Godse/wordpress-server-scripts/issues) to see if your question has already been answered.
 
 If your question is unique, you can open a new issue. Please use a clear title and description.
 
@@ -39,7 +39,7 @@ If your question is unique, you can open a new issue. Please use a clear title a
 ### Reporting Bugs
 
 - **Use the GitHub Issues search** to check if the bug has already been reported.
-- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/YourUsername/YourProjectName/issues/new).
+- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/Prathamesh-Godse/wordpress-server-scripts/issues/new).
 - **Be specific** in your report. Include:
   - Your operating system.
   - Steps to reproduce the bug.
