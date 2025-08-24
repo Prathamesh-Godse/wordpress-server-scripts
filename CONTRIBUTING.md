@@ -160,7 +160,7 @@ git push origin feat/my-new-feature
 1.  Click the **Push origin** button in the top toolbar.
     
 
-### Open a Pull Request (PR)
+### Open a Pull Request
 
 This step is the same regardless of how you made your changes.
 
