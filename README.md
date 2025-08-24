@@ -4,17 +4,17 @@
 
 This project is **not yet complete** and should be considered pre-release software. The scripts are being actively developed and tested. Do not use this on a production server.
 
-## 1. What is this for?
+## What is this for?
 
 This project provides a set of automation scripts to provision and secure a Ubuntu server for hosting WordPress. It translates the detailed manual steps from the [Secure-WordPress-Server](https://github.com/Prathamesh-Godse/Secure-WordPress-Server) guide into executable Bash scripts.
 
-## 2. Prerequisites
+## Prerequisites
 
 *   A **local machine** (Linux/macOS) with Bash and SSH.
 *   A **fresh remote VPS** (Ubuntu 22.04/20.04) with root SSH access.
 *   A domain name pointed to your VPS's IP address.
 
-## 3. Quick Start
+## Quick Start
 
 The automation is designed to be run from your **local machine**. The local controller script will securely connect to your remote server, transfer the necessary scripts, and execute them.
 
@@ -30,21 +30,21 @@ The automation is designed to be run from your **local machine**. The local cont
     ./main.sh
     ```
     
-## 4. Detailed Documentation
+## Detailed Documentation
 
 For a complete explanation of each security and optimization step performed by these scripts, please refer to the original manual guide:
 **[Secure-WordPress-Server Repository](https://github.com/Prathamesh-Godse/Secure-WordPress-Server)**
 
-## 5. Contributing
+## Contributing
 
 We welcome contributions! If you'd like to help complete this automation project, please read our guidelines first:
 **[CONTRIBUTING.md](CONTRIBUTING.md)**
 
-## 6. Disclaimer
+## Disclaimer
 
 These scripts are provided **AS IS**, without warranty of any kind. Use at your own risk. The authors are not responsible for any downtime, data loss, or security breaches resulting from the use of this software. Always test in a staging environment first.
 
-## 7. License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
