@@ -62,24 +62,24 @@ This project uses a **Forking Workflow**. This means you will work on your own p
 ### Step 1: Fork the Project
 
 **Web Interface (Recommended for beginners):**
-1.  Navigate to the main project page: `https://github.com/[MY_USERNAME]/[MY_PROJECT_NAME]`
+1.  Navigate to the main project page: `https://github.com/prathamesh-godse/wordpress-server-scripts`
 2.  Click the **Fork** button in the top-right corner.
     
 
 3.  On the "Create a new fork" screen, leave all defaults and click **Create fork**.
-4.  You will be redirected to your personal copy of the repository at `https://github.com/[YOUR_USERNAME]/[MY_PROJECT_NAME]`.
+4.  You will be redirected to your personal copy of the repository at `https://github.com/[YOUR_USERNAME]/wordpress-server-scripts`.
 
-> **Example:** If your GitHub username is `johnsmith` and the project is `cool-app`, your fork will be at `https://github.com/johnsmith/cool-app`
+> **In this Case:** If your GitHub username is `johndoe`, your fork will be at `https://github.com/johndoe/wordpress-server-scripts`
 
 ### Step 2: Work on Your Fork
 
-You have two main paths now: **Web-Based Editing** (for simple changes) or **Local Development** (for complex code changes).
+You have two main paths now: **Web-Based Editing** (beginner friendly) or **Local Development**.
 
-#### Option A: Web-Based Editing (Perfect for quick docs fixes)
+#### Option A: Web-Based Editing (Perfect for beginners)
 
 This method allows you to make changes directly on GitHub without cloning.
 
-1.  **Navigate to the File:** On your fork's page (`https://github.com/YOUR_USERNAME/MY_PROJECT_NAME`), browse to the file you want to edit.
+1.  **Navigate to the File:** On your fork's page (`https://github.com/YOUR_USERNAME/wordpress-server-scripts`), browse to the file you want to edit.
 2.  **Edit the File:** Click the pencil (**✏️**) icon in the top-right corner of the file view.
     
 
@@ -92,15 +92,15 @@ This method allows you to make changes directly on GitHub without cloning.
 
 5.  **Click "Propose changes"**. This will take you directly to the **Step 8: Open a Pull Request** screen.
 
-#### Option B: Local Development (Recommended for code changes)
+#### Option B: Local Development
 
 **Step 2B: Clone Your Fork**
 Clone your forked repository to your local machine to work on it.
 
 **Command Line:**
 ```bash
-git clone https://github.com/[YOUR_USERNAME]/[MY_PROJECT_NAME].git
-cd [MY_PROJECT_NAME]
+git clone https://github.com/[YOUR_USERNAME]/wordpress-server-scripts.git
+cd wordpress-server-scripts
 ```
 
 **GitHub Desktop (GUI):**
@@ -113,7 +113,7 @@ It's good practice to sync your local clone with the original project to avoid c
 
 **Command Line:**
 ```bash
-git remote add upstream https://github.com/[MY_USERNAME]/[MY_PROJECT_NAME].git
+git remote add upstream https://github.com/[MY_USERNAME]/wordpress-server-scripts.git
 ```
 
 **Step 4B: Create a Feature Branch**
@@ -164,7 +164,7 @@ git push origin feat/my-new-feature
 
 This step is the same regardless of how you made your changes.
 
-1.  Go to **your fork** on GitHub (`https://github.com/YOUR_USERNAME/MY_PROJECT_NAME`).
+1.  Go to **your fork** on GitHub (`https://github.com/YOUR_USERNAME/wordpress-server-scripts`).
 2.  You will often see a yellow banner suggesting your recently pushed branch. Click **Compare & pull request**.
     
 
@@ -202,6 +202,9 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/) style
   - `feat(auth): add login with Google OAuth`
   - `fix(api): correct user data validation error`
   - `docs: update installation instructions in README`
+ <img width="1025" height="803" alt="image" src="https://github.com/user-attachments/assets/ca11111a-e8ae-454e-ac59-ef2cbb09a868" />
+ 
+
 
 ---
 
