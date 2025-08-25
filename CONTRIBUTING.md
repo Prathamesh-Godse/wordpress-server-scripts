@@ -203,8 +203,12 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/) style
   - `fix(api): correct user data validation error`
   - `docs: update installation instructions in README`
  <img width="1025" height="803" alt="image" src="https://github.com/user-attachments/assets/ca11111a-e8ae-454e-ac59-ef2cbb09a868" />
- 
 
+**Key things contributors should do:**
+1.  **Tag the maintainer** (`@username`) to get their attention.
+2.  **Mention the PR number** (**Example:** `#45`) to link the work to the issue.
+3.  **Be polite and professional** in all communications.
+4.  **Confirm the fix** after it's merged if possible.
 
 ---
 
