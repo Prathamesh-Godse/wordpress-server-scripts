@@ -1,0 +1,48 @@
+#!/bin/bash
+# Multi-Task Manager with State Preservation
+
+USER_HOME="/home/$(logname)"
+CONFIG_DIR="$USER_HOME/system-config"
+STATE_FILE="/tmp/task-manager.state"
+TASK_LOG="/var/log/task-manager.log"
+
+log() {
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" | sudo tee -a "$TASK_LOG"
+}
+
+# Load state if exists
+load_state() {
+    if [ -f "$STATE_FILE" ]; then
+        source "$STATE_FILE"
+        return 0
+    fi
+    return 1
+}
+
+# Save state
+save_state() {
+    echo "CURRENT_TASK=$1" | sudo tee "$STATE_FILE"
+    echo "CURRENT_STEP=$2" | sudo tee -a "$STATE_FILE"
+}
+
+# Clear state
+clear_state() {
+    sudo rm -f "$STATE_FILE"
+}
+
+case "${1:-}" in
+    "continue")
+        # Continue from saved state
+        if load_state; then
+            log "Resuming task: $CURRENT_TASK at step: $CURRENT_STEP"
+            exec bash "$CONFIG_DIR/$CURRENT_TASK.sh" "continue" "$CURRENT_STEP"
+        else
+            log "ERROR: No saved state found"
+            exit 1
+        fi
+        ;;
+    *)
+        # Normal execution - pass through to task script
+        exec bash "$CONFIG_DIR/$1.sh" "${@:2}"
+        ;;
+esac
